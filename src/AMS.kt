@@ -15,10 +15,55 @@ fun main(args: Array<String>) {
     repeat(2) {
         println("A fish is swimming")
     }
+    eagerExample()
 
 }
 
+
+
+
+fun swim(){
+    //swim!
+}
+
+
+//lambdas - unanimous function
+//we declare a function  that has no name
+//surrounded by curly brackets
+
+
+
 fun getDirtySensorReading() = 20
+
+
+
+var dirty = 20
+//lambda
+//takes an int and return an int
+val waterFilter: ( Int) -> Int = {dirty: Int -> dirty / 2}
+
+fun feedFish(dirty: Int) = dirty + 10
+
+fun updateDirty(dirty: Int, operation: (Int) -> Int) : Int {
+    //it must be the last parameter
+    return operation(dirty)
+}
+
+fun dirtyProcessor(){
+    //we pass variable dirty to the waterFilter function and save the result back to the dirty variable.
+    dirty = updateDirty(dirty, waterFilter)
+    //its a named fucntion not a lamba, so we use ::
+    //we dont try to call feeFish. We pass the reference.
+    dirty = updateDirty(dirty, ::feedFish)
+    //we are passing it as a alst parameter, so we dont have to put in inside the function {}
+    dirty = updateDirty(dirty) {
+        dirty -> dirty + 50
+    }
+    //we are passing it as an argument
+    dirty = updateDirty(dirty,  {
+            dirty -> dirty + 50
+    })
+}
 
 
 //put arguments without defaults first
@@ -65,6 +110,30 @@ fun  shouldChangeWater2 (
 
 }
 
+fun eagerExample(){
+    val decorations = listOf ("rock", "pagoda", "plastic plant", "alligator", "flowerpot")
+    //every time we call a filter, it creates a new list with elements, that pass through a filter.
+    val eager = decorations.filter { it[0] == 'p' }
+    println(eager)
+
+    // applay filter lazily
+    //holds a sequence off all list elemnts and knowledge of a filter to applay to its elements
+    val filtered = decorations.asSequence().filter { it[0] == 'p' }
+    println(filtered)
+    //all of the values that star with a p will be put in a new list
+    println(filtered.toList())
+
+    //applay map lazily
+    val lazyMap = decorations.asSequence().map {
+        println("map: $it")
+        it
+    }
+
+    println(lazyMap)
+    println("first: ${lazyMap.first()}")
+    println("first: ${lazyMap.toList()}")
+}
+
 
 
 fun feedTheFish() {
@@ -82,6 +151,9 @@ fun feedTheFish() {
     if (shouldChangeWater(day)){
         println("change the water today")
     }
+
+    //  call dirty processor
+    dirtyProcessor()
 }
 
 
