@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0993a253-60f5-4244-a41a-8e47bdc944e1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fortuneCookie.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/fortuneCookie.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AWS.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/AMS.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,16 +35,29 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RunManager" selected="Kotlin.FortuneCookiesKt">
-    <configuration name="AWSKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.CanAddFishKt">
+    <configuration name="AMSKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Hello kotlin" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="Kotlin" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="AWSKt" />
+      <option name="MAIN_CLASS_NAME" value="AMSKt" />
       <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CanAddFishKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Hello kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="CanAddFishKt" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -89,15 +102,17 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.AWSKt" />
       <item itemvalue="Kotlin.src.FileKt" />
       <item itemvalue="Kotlin.GreetingsKt" />
       <item itemvalue="Kotlin.FortuneCookiesKt" />
+      <item itemvalue="Kotlin.AMSKt" />
+      <item itemvalue="Kotlin.CanAddFishKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.CanAddFishKt" />
+        <item itemvalue="Kotlin.AMSKt" />
         <item itemvalue="Kotlin.FortuneCookiesKt" />
-        <item itemvalue="Kotlin.AWSKt" />
         <item itemvalue="Kotlin.GreetingsKt" />
         <item itemvalue="Kotlin.src.FileKt" />
       </list>
@@ -113,7 +128,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582821926987</updated>
-      <workItem from="1582821928435" duration="4021000" />
+      <workItem from="1582821928435" duration="6195000" />
     </task>
     <servers />
   </component>
@@ -125,21 +140,37 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="414" y="234" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1582822643322" />
-    <state width="1877" height="321" key="GridCell.Tab.0.bottom" timestamp="1582831488885">
+    <state width="1877" height="321" key="GridCell.Tab.0.bottom" timestamp="1582833649995">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1582831488885" />
-    <state width="1877" height="321" key="GridCell.Tab.0.center" timestamp="1582831488885">
+    <state width="1877" height="321" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1582833649995" />
+    <state width="1877" height="321" key="GridCell.Tab.0.center" timestamp="1582833649979">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1582831488885" />
-    <state width="1877" height="321" key="GridCell.Tab.0.left" timestamp="1582831488885">
+    <state width="1877" height="321" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1582833649979" />
+    <state width="1877" height="321" key="GridCell.Tab.0.left" timestamp="1582833649979">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1582831488885" />
-    <state width="1877" height="321" key="GridCell.Tab.0.right" timestamp="1582831488885">
+    <state width="1877" height="321" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1582833649979" />
+    <state width="1877" height="321" key="GridCell.Tab.0.right" timestamp="1582833649995">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1582831488885" />
+    <state width="1877" height="321" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1582833649995" />
+    <state width="1877" height="396" key="GridCell.Tab.1.bottom" timestamp="1582833372666">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="396" key="GridCell.Tab.1.bottom/-1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1582833372666" />
+    <state width="1877" height="396" key="GridCell.Tab.1.center" timestamp="1582833372666">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="396" key="GridCell.Tab.1.center/-1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1582833372666" />
+    <state width="1877" height="396" key="GridCell.Tab.1.left" timestamp="1582833372666">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="396" key="GridCell.Tab.1.left/-1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1582833372666" />
+    <state width="1877" height="396" key="GridCell.Tab.1.right" timestamp="1582833372666">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="396" key="GridCell.Tab.1.right/-1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1582833372666" />
   </component>
 </project>
