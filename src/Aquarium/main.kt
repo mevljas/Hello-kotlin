@@ -23,5 +23,13 @@ fun buildAquarium(){
     val simpleSpice = SimpleSpice()
     println("${simpleSpice.name} ${simpleSpice.heat}")
 
-    val smallAquarium = Aquarium(20, 15, 30)
+    val smallAquarium = Aquarium(length = 20, width = 15, height = 30)
+    println("Small Aquarium: ${smallAquarium.volume} liters")
+
+    val myAquarium2 = Aquarium(numberOfFish = 9)
+
+    println("Small Aquarium 2: ${myAquarium2.volume} liters with "+
+            "length ${myAquarium2.length} " +
+            "width ${myAquarium2.width} " +
+            "height ${myAquarium2.height} " )
 }
