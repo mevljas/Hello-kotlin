@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0993a253-60f5-4244-a41a-8e47bdc944e1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aquarium/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aquarium/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hello kotlin/META-INF/Hello kotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hello kotlin/META-INF/Hello kotlin.kotlin_module" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +130,7 @@
       <workItem from="1582821928435" duration="9528000" />
       <workItem from="1582994504474" duration="1235000" />
       <workItem from="1583056021503" duration="1069000" />
-      <workItem from="1583075095433" duration="1583000" />
+      <workItem from="1583075095433" duration="1888000" />
     </task>
     <servers />
   </component>
