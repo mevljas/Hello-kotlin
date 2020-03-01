@@ -1,5 +1,7 @@
 package Aquarium
 
+import SimpleSpice
+
 fun main ( Args: Array<String>) {
     buildAquarium()
 }
@@ -17,4 +19,7 @@ fun buildAquarium(){
 
 //    Under the hood, this calls the get function.
     println("Volume: ${myAquarium.volume} liters")
+
+    val simpleSpice = SimpleSpice()
+    println("${simpleSpice.name} ${simpleSpice.heat}")
 }
