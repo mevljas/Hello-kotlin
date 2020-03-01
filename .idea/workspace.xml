@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0993a253-60f5-4244-a41a-8e47bdc944e1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hello kotlin/Aquarium/Aquarium.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hello kotlin/Aquarium/Aquarium.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hello kotlin/Aquarium/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hello kotlin/Aquarium/MainKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aquarium/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aquarium/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aquarium/Aquarium.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aquarium/Aquarium.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +131,7 @@
       <workItem from="1582821928435" duration="9528000" />
       <workItem from="1582994504474" duration="1235000" />
       <workItem from="1583056021503" duration="1069000" />
-      <workItem from="1583075095433" duration="2255000" />
+      <workItem from="1583075095433" duration="3378000" />
     </task>
     <servers />
   </component>
@@ -185,16 +183,5 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="343" key="com.intellij.ide.util.TipDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583075115614" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/Aquarium/Aquarium.kt</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

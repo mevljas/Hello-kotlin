@@ -19,4 +19,10 @@ class Aquarium{
     var  volume : Int
         get() =  width * height * length / 1000
         // we also could set it to private
-        set(value) { height = (value * 1000) / (width * length)
+        set(value) {  height = (value * 1000) / (width * length)}
+
+
+
+
+
+}
