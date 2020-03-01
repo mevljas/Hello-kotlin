@@ -17,9 +17,6 @@ class Aquarium{
 
     //overriding getter and setter
     var  volume : Int
-        get(){
-            return width * height * length / 1000
-        }
-        // we could set it to private
+        get() =  width * height * length / 1000
+        // we also could set it to private
         set(value) { height = (value * 1000) / (width * length)
-}
