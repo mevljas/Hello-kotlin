@@ -14,4 +14,7 @@ fun buildAquarium(){
     myAquarium.height = 80
 
     println("Height: ${myAquarium.height} cm")
+
+//    Under the hood, this calls the get function.
+    println("Volume: ${myAquarium.volume} liters")
 }
