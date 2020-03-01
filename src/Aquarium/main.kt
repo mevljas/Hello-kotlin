@@ -22,4 +22,6 @@ fun buildAquarium(){
 
     val simpleSpice = SimpleSpice()
     println("${simpleSpice.name} ${simpleSpice.heat}")
+
+    val smallAquarium = Aquarium(20, 15, 30)
 }

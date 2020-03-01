@@ -1,19 +1,12 @@
 package Aquarium
 
-class Aquarium{
+class Aquarium(var length: Int, var width: Int, var height: Int){
 
-    var width: Int = 20
-    var height: Int = 40
-    var length: Int = 100
+    //we dont need to do this, because we can specifiy default values on top.
+//    var width: Int = width
+//    var height: Int = heigh
+//    var length: Int = length
 
-    //overriding getter
-//    val  volume : Int
-//        get(){
-//            return width * height * length / 1000
-//        }
-
-    //one-liner declaration
-//    fun volume() = width * height * length / 1000
 
     //overriding getter and setter
     var  volume : Int
