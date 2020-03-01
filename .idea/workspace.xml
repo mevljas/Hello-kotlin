@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0993a253-60f5-4244-a41a-8e47bdc944e1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hello kotlin/Aquarium/Aquarium.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hello kotlin/Aquarium/Aquarium.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hello kotlin/Aquarium/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hello kotlin/Aquarium/MainKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aquarium/Aquarium.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aquarium/Aquarium.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aquarium/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aquarium/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +12,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -39,6 +34,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Drive\Projects\Kotlin\Hello kotlin\src\default" />
+    </key>
   </component>
   <component name="RunManager" selected="Kotlin.Aquarium.MainKt">
     <configuration name="AMSKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
@@ -136,7 +136,7 @@
       <workItem from="1582821928435" duration="9528000" />
       <workItem from="1582994504474" duration="1235000" />
       <workItem from="1583056021503" duration="1069000" />
-      <workItem from="1583075095433" duration="5157000" />
+      <workItem from="1583075095433" duration="5795000" />
     </task>
     <servers />
   </component>
