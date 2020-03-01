@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0993a253-60f5-4244-a41a-8e47bdc944e1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AMS.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/AMS.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,6 +128,9 @@
       <option name="presentableId" value="Default" />
       <updated>1582821926987</updated>
       <workItem from="1582821928435" duration="9528000" />
+      <workItem from="1582994504474" duration="1235000" />
+      <workItem from="1583056021503" duration="1069000" />
+      <workItem from="1583075095433" duration="1014000" />
     </task>
     <servers />
   </component>
@@ -172,5 +174,9 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1877" height="396" key="GridCell.Tab.1.right/-1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1582837023667" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1583075115614">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583075115614" />
   </component>
 </project>

@@ -1,0 +1,3 @@
+package Aquarium
+
+class Aquarium
