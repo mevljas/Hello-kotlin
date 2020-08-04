@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0993a253-60f5-4244-a41a-8e47bdc944e1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +35,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -41,7 +43,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Kotlin.Aquarium.MainKt">
-    <configuration name="AMSKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="AMSKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="Hello kotlin" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="Kotlin" />
@@ -54,7 +56,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Aquarium.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="Aquarium.MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="Hello kotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -67,7 +69,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CanAddFishKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="CanAddFishKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="Hello kotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -80,7 +82,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FortuneCookiesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="FortuneCookiesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="Hello kotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -93,7 +95,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameplayKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="GameplayKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="Hello kotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -107,11 +109,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.FortuneCookiesKt" />
       <item itemvalue="Kotlin.AMSKt" />
-      <item itemvalue="Kotlin.CanAddFishKt" />
-      <item itemvalue="Kotlin.GameplayKt" />
       <item itemvalue="Kotlin.Aquarium.MainKt" />
+      <item itemvalue="Kotlin.CanAddFishKt" />
+      <item itemvalue="Kotlin.FortuneCookiesKt" />
+      <item itemvalue="Kotlin.GameplayKt" />
     </list>
     <recent_temporary>
       <list>
@@ -144,49 +146,17 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="234" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582822643322">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state x="2730" y="447" width="290" height="219" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1596557713469">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="414" y="234" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1582822643322" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1583084693494">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2730" y="447" width="290" height="219" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/1920.0.1920.1080/0.30.1920.1050@1920.0.1920.1080" timestamp="1596557713469" />
+    <state x="2563" y="284" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1596555802170">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583084693494" />
-    <state width="1877" height="396" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1582837023667" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1583084693494">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2563" y="284" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1920.0.1920.1080/0.30.1920.1050@1920.0.1920.1080" timestamp="1596555802170" />
+    <state x="2573" y="382" key="com.intellij.ide.util.TipDialog" timestamp="1596555955047">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583084693494" />
-    <state width="1877" height="396" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1582837023667" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1583084693493">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583084693493" />
-    <state width="1877" height="396" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1582837023667" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1583084693494">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583084693494" />
-    <state width="1877" height="396" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1582837023667" />
-    <state width="1877" height="396" key="GridCell.Tab.1.bottom" timestamp="1582837023667">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1877" height="396" key="GridCell.Tab.1.bottom/-1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1582837023667" />
-    <state width="1877" height="396" key="GridCell.Tab.1.center" timestamp="1582837023667">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1877" height="396" key="GridCell.Tab.1.center/-1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1582837023667" />
-    <state width="1877" height="396" key="GridCell.Tab.1.left" timestamp="1582837023667">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1877" height="396" key="GridCell.Tab.1.left/-1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1582837023667" />
-    <state width="1877" height="396" key="GridCell.Tab.1.right" timestamp="1582837023667">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1877" height="396" key="GridCell.Tab.1.right/-1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1582837023667" />
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1583075115614">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583075115614" />
+    <state x="2573" y="382" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.30.1920.1050@1920.0.1920.1080" timestamp="1596555955047" />
   </component>
 </project>
