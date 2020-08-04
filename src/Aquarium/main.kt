@@ -4,6 +4,7 @@ import SimpleSpice
 
 fun main ( Args: Array<String>) {
     buildAquarium()
+    makeFish()
 }
 fun buildAquarium(){
     val myAquarium = Aquarium()
@@ -32,4 +33,11 @@ fun buildAquarium(){
             "length ${myAquarium2.length} " +
             "width ${myAquarium2.width} " +
             "height ${myAquarium2.height} " )
+}
+//creates a shark and a pleco, adn prints out their colors.
+fun makeFish() {
+    val shark = Shark()
+    val pleco = Plecostomus()
+
+    println("Shark: ${shark.color} \n Plecostomus: ${pleco.color}")
 }
