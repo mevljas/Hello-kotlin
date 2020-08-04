@@ -1,7 +1,9 @@
 package Aquarium
 
+import kotlin.math.PI
+
 //this is  the default constructor
-class Aquarium(var length: Int = 100, var width: Int = 20, var height: Int = 40){
+open class Aquarium(var length: Int = 100, var width: Int = 20, var height: Int = 40){
 
     //we dont need to do this, because we can specifiy default values on top.
 //    var width: Int = width
@@ -10,12 +12,12 @@ class Aquarium(var length: Int = 100, var width: Int = 20, var height: Int = 40)
 
 
     //overriding getter and setter
-    var  volume : Int
+    open var  volume : Int
         get() =  width * height * length / 1000
         // we also could set it to private
         set(value) {  height = (value * 1000) / (width * length)}
 
-    var water = volume * 0.9
+    open var water = volume * 0.9
 
     //this is a custom cosntructor, which calls the default constructor.
     constructor(numberOfFish: Int): this(){
@@ -24,4 +26,15 @@ class Aquarium(var length: Int = 100, var width: Int = 20, var height: Int = 40)
         height = ( tank / (length * width)).toInt()
     }
 
+}
+
+
+class TowerTank(): Aquarium() {
+
+    override  var water = volume * 0.8
+
+    override  var volume: Int
+        get() = (width * height * length / 1000 * PI).toInt()
+        set(value)  {
+            height = (value * 1000) / (width * length)}
 }
