@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0993a253-60f5-4244-a41a-8e47bdc944e1" name="Default Changelist" comment="Project build.">
+    <list default="true" id="0993a253-60f5-4244-a41a-8e47bdc944e1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aquarium/Aquarium.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aquarium/Aquarium.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +148,42 @@
       <option name="project" value="LOCAL" />
       <updated>1596557858575</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Project build.">
+      <created>1596559227765</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596559227765</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add Book class">
+      <created>1596559248768</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1596559248768</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add Book class">
+      <created>1596559256661</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596559256661</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add Book class">
+      <created>1596559260534</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1596559260534</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Ignored a directory .idea">
+      <created>1596559452179</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1596559452179</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,7 +191,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project build." />
-    <option name="LAST_COMMIT_MESSAGE" value="Project build." />
+    <MESSAGE value="Add Book class" />
+    <MESSAGE value="Ignored a directory .idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ignored a directory .idea" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2730" y="447" width="290" height="219" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1596557713469">
@@ -167,10 +204,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2563" y="284" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1920.0.1920.1080/0.30.1920.1050@1920.0.1920.1080" timestamp="1596555802170" />
-    <state x="2528" y="143" width="693" height="827" key="CommitChangelistDialog2" timestamp="1596559256623">
+    <state x="2528" y="143" width="693" height="827" key="CommitChangelistDialog2" timestamp="1596559452138">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2528" y="143" width="693" height="827" key="CommitChangelistDialog2/1920.0.1920.1080/0.30.1920.1050@1920.0.1920.1080" timestamp="1596559256623" />
+    <state x="2528" y="143" width="693" height="827" key="CommitChangelistDialog2/1920.0.1920.1080/0.30.1920.1050@1920.0.1920.1080" timestamp="1596559452138" />
     <state x="2573" y="382" key="com.intellij.ide.util.TipDialog" timestamp="1596555955047">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
