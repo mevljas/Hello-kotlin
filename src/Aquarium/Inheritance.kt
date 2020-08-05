@@ -10,14 +10,14 @@ interface AquariumAction {
     }
 }
 
-interface FishAction {
-    fun eat()
-}
-
-abstract class AquariumFish: FishAction {
-    abstract val color: String
-    override fun eat() = print("yum")
-}
+//interface FishAction {
+//    fun eat()
+//}
+//
+//abstract class AquariumFish: FishAction {
+//    abstract val color: String
+//    override fun eat() = print("yum")
+//}
 
 // composition
 fun main(args: Array<String>) {
@@ -31,9 +31,9 @@ fun delegate() {
     pleco.eat()
 }
 
-interface  FishAction {
-    fun eat()
-}
+//interface  FishAction {
+//    fun eat()
+//}
 
 interface FishColor {
     val color: String
@@ -77,7 +77,7 @@ class PrintingFishAction(val food: String): FishAction {
     }
 }
 
-
-class Plecostomus( fishColor: FishColor = GoldColor):
-    FishAction by PrintingFishAction("a lot of algae"), FishColor by fishColor
+//
+//class Plecostomus( fishColor: FishColor = GoldColor):
+//    FishAction by PrintingFishAction("a lot of algae"), FishColor by fishColor
 
